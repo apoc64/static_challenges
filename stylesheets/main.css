@@ -6,9 +6,15 @@ body {
 header {
   background-color: maroon;
   color: white;
-}
-header section {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 90px;
+}
+
+header section {
+  width: 97%;
   height: 50px;
   padding-left: 15pt;
   padding-top: 1pt;
@@ -19,22 +25,74 @@ header section h1 {
   padding-top: 20px;
   float: left;
 }
+
 header section a {
   width: 20%;
   float: right;
   text-align: right;
-  padding: 25px;
-  margin-right: 20px;
+  padding: 22px;
+}
+
+header a {
   color: white;
 }
 
 header ul {
-  width: 100%;
-  /* float: left; */
+  width: 97%;
+  padding-top: 1pt;
+  padding-right: 30px;
+  text-align: right;
+  text-underline-position: alphabetic;
   background-color: black;
+  height: 40px;
+}
+header li {
+  list-style: none;
+  width: auto;
+  float: right;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+/* content {
+  margin-top: 200px;
+  padding-top: 200px;
+  margin-bottom: 200px;
+} */
+div {
+  height: 130px;
+  /* width: 500px; */
+}
+
+article {
+  padding-left: 15pt;
+  width: 65%;
+  float: left;
+  padding-bottom: 100px;
+}
+
+article h2, p {
+  padding-left: 10pt;
+  width: 90%;
+}
+
+article img {
+  width: 95%;
+}
+
+aside {
+  width: 22%;
+  float: right;
+}
+aside img {
+  width: 93%;
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: black;
   color: white;
 }
