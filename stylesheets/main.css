@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  border: 0pt;
+  padding: 0pt;
+}
+
+header {
+  background-color: maroon;
+  color: white;
+  text-indent: 20pt;
+  border: 0pt;
+  padding: 0pt;
+  
+}
+
+ul {
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
